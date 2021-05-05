@@ -1,0 +1,12 @@
+.about {
+  flex-grow: 1;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-family: "Vertiky";
+  font-size:larger;
+}
