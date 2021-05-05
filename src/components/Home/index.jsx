@@ -11,8 +11,8 @@ const Home = () => {
           <p>My name is Dan.</p>
           <p>I am a full stack developer!</p>
         </h1>
-        <Link to="about">
-          <button>Want to know more?</button>
+        <Link to="/about">
+          <button>Hey Listen!</button>
         </Link>
       </div>
       <div className="person">
