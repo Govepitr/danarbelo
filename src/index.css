@@ -1,3 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Triforce";
+  src: url("../src/assets/fonts/TriSymbol.ttf") format("ttf");
+  font-family: "Vipnagorgialla";
+  src: url("../src/assets/fonts/Typodermic.otf") format("otf");
+  font-family: "Vertiky";
+  src: url("../src/assets/fonts/Vertiky.otf") format("otf");
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,900);
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +22,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dde8fc;
+}
+
+/* Hides the scrollbar for Safari, Chrome, and Opera */
+body::-webkit-scrollbar  {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none; /*For IE and Edge */
+  scrollbar-width: none; /* Firefox*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1280px;
+}
+
+p {
+  line-height: 30px;
+  font-family: "Verticky";
+}
+h1,
+h2 {
+  font-family: "Vipnagorgialla";
 }
